@@ -68,7 +68,9 @@ Follow these steps to run the project locally.
    To start the development server:
    ```bash
    npm run dev
+   ```
    The app will run at http://localhost:5173/
+
 ## API Documentation
 
 This project uses the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/).
@@ -82,11 +84,13 @@ This project uses the [JSONPlaceholder API](https://jsonplaceholder.typicode.com
 | PUT    | `/users/:id`  | Update a user (simulated)             |
 | DELETE | `/users/:id`  | Delete a user (simulated)             |
 
+
 ### Example Requests
 
 #### Fetch Users
 ```bash
 GET https://jsonplaceholder.typicode.com/users
+```
 
 ## Contributing
 
